@@ -11,8 +11,8 @@ ENV DEBIAN_FRONTEND noninteractive
 # update dpkg repositories
 RUN apt-get update
 
-RUN apt-get install default-jre
-RUN apt-get install npm
+RUN apt-get install -y default-jre
+RUN apt-get install -y npm
 
 CMD [""]
 
