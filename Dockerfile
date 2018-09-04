@@ -1,5 +1,5 @@
 # Ubuntu 16.04
-# Default jre
+# Default jdk
 # npm
 
 FROM ubuntu:16.04
@@ -11,7 +11,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # update dpkg repositories
 RUN apt-get update
 
-RUN apt-get install -y default-jre
+RUN apt-get install -y default-jdk
 RUN apt-get install -y npm
 
 CMD [""]
