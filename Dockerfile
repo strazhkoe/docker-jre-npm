@@ -14,5 +14,7 @@ RUN apt-get update
 RUN apt-get install -y default-jdk
 RUN apt-get install -y npm
 
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+
 CMD [""]
 
